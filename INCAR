@@ -1,0 +1,25 @@
+System = AIMD with PBE
+
+ENCUT = 550
+EDIFF = 1E-5
+ISMEAR = 0
+SIGMA = 0.05
+PREC = Normal
+LREAL = Auto
+ISYM = 0
+NELMIN = 5
+NELM = 300
+
+NSW = 10000
+POTIM = 1.0
+TEBEG = 500
+TEEND = 500
+SMASS = 0
+MDALGO = 2
+
+GGA = PE
+IVDW = 11
+
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+LVTOT = .FALSE.           
